@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 100%;
+    border: 1px black solid;
+    background-image: linear-gradient(#3D040B, #011C39);
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+
+}
+#game {
+    text-align: center;
+}
+
+#clickButton {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
+#clicksRemaining {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
